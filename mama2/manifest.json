@@ -1,0 +1,17 @@
+{
+  "name": "mama2-chrome",
+  "description": "妈妈再也不用担心我的 MacBook 发烫计划2.0 - chrome 插件",
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "mama2",
+    "default_icon": "icon.png"
+  },
+  "manifest_version": 2
+}
